@@ -255,8 +255,8 @@ nav ul li select{
         display: flex;
         /* align-items: center; */
         justify-content: center;
-        transition: 1s all ease-in-out;
-        z-index: 10000;
+        transition: 500ms all ease-in-out;
+        z-index: 1000;
         display: none;
     }
 .actionButton { 
