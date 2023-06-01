@@ -122,3 +122,7 @@ nav ul select option{
     height:auto;
     mix-blend-mode:darken;
 }
+.featuredItemsHeading{
+    text-align: center;
+    font-size:200%;
+}
