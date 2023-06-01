@@ -3,7 +3,7 @@ document.querySelector(".closeNav").addEventListener("click", () => {
     setTimeout(() => {
         document.querySelector(".navMenuContainer").style.display = "none"
         document.querySelector(".mobileNav").style.display="flex"
-    }, 900)
+    }, 400)
 })
 document.querySelector(".mobileNav").addEventListener("click", () => {
     document.querySelector(".navMenuContainer").style.display = "flex"
@@ -14,5 +14,5 @@ document.querySelector(".mobileNav").addEventListener("click", () => {
     }, 1)
     setTimeout(() => {
         document.querySelector(".mobileNav").style.display="none"
-    }, 1100)
+    }, 600)
 })
