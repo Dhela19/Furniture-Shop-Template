@@ -196,7 +196,7 @@ nav ul li select{
     }
 
     :root {
-        font-size: 80%;
+        font-size: 70%;
     }
 
     .sectionContainer {
@@ -215,13 +215,13 @@ nav ul li select{
 
     .featuredHeading {
         width: auto;
-        font-size: 400%;
+        font-size: 300%;
     }
 
     .imgContainer img {
         width: 90vw;
         height: auto;
-        mix-blend-mode: darken;
+        mix-blend-mode: none;
         margin: 0 auto auto auto;
     }
 
@@ -239,7 +239,7 @@ nav ul li select{
         flex-direction: column;
         justify-content: space-around;
         padding: 0;
-        height: 50vh;
+        height: 30vh;
         width:100vw;
         text-align: center;
     }
