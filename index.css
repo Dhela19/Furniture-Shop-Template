@@ -77,7 +77,8 @@ nav ul select option {
     border: none;
     cursor: pointer;
 }
-nav ul li select{
+
+nav ul li select {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
@@ -153,27 +154,31 @@ nav ul li select{
     text-align: center;
     font-size: 200%;
 }
-.closeNav{
+
+.closeNav {
     display: none;
 }
-.mobileNav{
+
+.mobileNav {
     display: none;
 }
 
 /* Media Queries */
 @media (max-width:750px) {
-    .closeNav{
-        color:red;
+    .closeNav {
+        color: red;
         text-align: right;
         display: block;
         font-size: 300%;
         padding: 1rem 2.3rem 1rem 1rem;
     }
-    .mobileNav{
+
+    .mobileNav {
         display: flex;
         font-size: 300%;
         padding: 1rem auto;
     }
+
     * {
         /* outline: 1px dashed red; */
     }
@@ -229,9 +234,11 @@ nav ul li select{
         /* display: none; */
         z-index: 100;
     }
-    .mobileNav{
-        font-size:300%;
+
+    .mobileNav {
+        font-size: 300%;
     }
+
     nav ul {
         list-style: none;
         font-size: 200%;
@@ -240,10 +247,11 @@ nav ul li select{
         justify-content: space-around;
         padding: 0;
         height: 30vh;
-        width:100vw;
+        width: 100vw;
         text-align: center;
     }
-    .navMenuContainer{
+
+    .navMenuContainer {
         width: 100vw;
         height: 100vh;
         position: fixed;
@@ -259,34 +267,12 @@ nav ul li select{
         z-index: 1000;
         display: none;
     }
-.actionButton { 
-     font-size: 200%; 
-width:15rem;
-height:5rem;
-font-family:'Poppins', sans-serif;
 
- }
-/*     
-    li {
-        cursor: pointer;
+    .actionButton {
+        font-size: 200%;
+        width: 15rem;
+        height: 5rem;
+        font-family: 'Poppins', sans-serif;
+
     }
-    
-    nav ul select {
-        background: none;
-        border: none;
-        font-size: var(--min-font-size);
-        font-family: 'Poppins'sans-serif;
-        cursor: pointer;
-        outline: none;
-    }
-    
-    nav ul select::after {
-        border: none;
-    }
-    
-    nav ul select option {
-        background: none;
-        border: none;
-        cursor: pointer;
-    } */
 }
