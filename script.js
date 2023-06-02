@@ -13,6 +13,6 @@ document.querySelector(".mobileNav").addEventListener("click", () => {
         // document.querySelector(".mobileNav").style.display="none"
     }, 1)
     setTimeout(() => {
-        document.querySelector(".mobileNav").style.display = "none"
+        document.querySelector(".mobileNav").style.display = "hidden"
     }, 600)
 })
