@@ -88,6 +88,15 @@ nav ul li select {
     font-weight: 1000;
     font-family: 'Poppins'sans-serif;
 }
+#shoppingIcons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width:7vw;
+}
+.shopActivity{
+    font-size:120%;
+}
 
 .sectionContainer {
     display: flex;
